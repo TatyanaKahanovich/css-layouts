@@ -1,0 +1,84 @@
+@media screen and (max-width : 640px){
+
+  body {
+    min-width: 320px;
+  }
+
+  .wrapper {
+    max-width: 320px;
+  }
+
+  .top-bar-left, .tel, .top-bar-right a {
+    font-size: 17px;
+  }
+
+  .top-bar-right {
+    margin-top: 15px;
+  }
+
+  .account:before, .icon-search-outline:before {
+    font-size: 20px;
+  }
+
+  .top-bar-right li {
+    padding: 39px 15px 36px 15px;
+  }
+
+  .currency:after {
+    left: 44px;
+  }
+
+  .account:before {
+    top: -3px;
+    left: -24px;
+  }
+
+  .top-menu-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .top-menu-bag {
+    border-color: #b3b3b3;
+    width: 320px;
+    margin: 0;
+  }
+
+  .top-bar-right ul {
+    justify-content: space-around;
+  }
+
+  .top-menu-right .main-menu {
+    justify-content: space-around;
+    margin-left: 0;
+  }
+
+  .media {
+    width: 363px;
+  }
+
+  .carousel-items figure:nth-child(n+2), .clearance-items figure:nth-child(n+2) {
+    display: none;
+  }
+
+  .logo {
+    width: 310px;
+  }
+
+  .top-menu .main-menu-inline {
+    padding: 35px 15px;
+  }
+
+  .top-menu .main-menu-inline:after {
+    top: 29px;
+  }
+
+  .media-left input, .media-right p {
+    font-size: 22px;
+  }
+
+  .carousel .load-more, .clearance .load-more {
+    left: 34%;
+  }
+}
